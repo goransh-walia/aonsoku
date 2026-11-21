@@ -471,7 +471,8 @@
     "goto": {
       "episode": "Przejdź do odcinka",
       "podcast": "Przejdź do podcastu"
-    }
+    },
+    "startRadio": "Rozpocznij radio"
   },
   "radios": {
     "table": {
@@ -882,9 +883,11 @@
       "uniqueArtists": "Unikalni wykonawcy",
       "streak": "Passa",
       "streakValue_one": "{{count}} dzień",
-      "streakValue_other": "{{count}} dni",
+      "streakValue_few": "",
+      "streakValue_many": "",
       "streakBest_one": "Najlepsza {{count}} dzień",
-      "streakBest_other": "Najlepsza {{count}} dni"
+      "streakBest_few": "",
+      "streakBest_many": ""
     },
     "genres": {
       "title": "Gatunki",
