@@ -17,6 +17,7 @@ const instanceLock = app.requestSingleInstanceLock()
 if (!instanceLock) {
   app.quit()
 } else {
+  app.setAppUserModelId('com.victoralvesf.aonsoku')
   createAppMenu()
 
   app.on('second-instance', () => {
@@ -32,8 +33,6 @@ if (!instanceLock) {
   })
 
   app.whenReady().then(() => {
-    electronApp.setAppUserModelId('com.victoralvesf.aonsoku')
-
     initAutoUpdater()
     createWindow()
   })
